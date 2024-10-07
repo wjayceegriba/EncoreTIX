@@ -1,0 +1,52 @@
+﻿.search-container {
+    display: flex; /* Align search box and button in a row */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.search-box-container {
+    position: relative; /* For positioning the icon */
+    flex: 1;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px; /* Space from the left */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    color: #999; /* Icon color */
+}
+
+.search-box {
+    width: 100%; /* Adjust width as needed */
+    padding: 10px 10px 10px 30px; /* Padding to the left for the icon */
+    height: 40px; /* Set height for the input */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.submit-button {
+    margin-left: 10px; /* Space between search box and button */
+    height: 40px; /* Match height with the input */
+    width: 96px;
+    top: 97px;
+    left: 372px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    border: none; /* Remove border */
+    border-radius: 10px; /* Optional rounded corners */
+    background-color: #186CAB; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    gap: 10px;
+}
+    .submit-button:hover {
+        background-color: white;
+        color: #186CAB;
+        border: solid;
+        border-color: #186CAB;
+    }

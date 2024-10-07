@@ -1,0 +1,9 @@
+﻿<div class="message-box">
+    <img src="@ImageUrl" class="message-box-img" alt="@Message" />
+    <p class="message-box-text">@Message</p>
+</div>
+
+@code {
+    [Parameter] public string? Message { get; set; }
+    [Parameter] public string? ImageUrl { get; set; }
+}

@@ -1,0 +1,49 @@
+﻿.scrollable-container {
+    max-height: 400px; /* You can adjust this to the desired height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding-right: 15px; /* Optional, to ensure padding on the right of the content */
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+}
+
+.flex-container {
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    justify-content: start; /* Align items horizontally from left */
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.message-box-container {
+    display: flex;
+    justify-content: center; /* Centers the card horizontally */
+}
+
+.select-button {
+    width: 96px;
+    top: 97px;
+    left: 372px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px; 
+    padding-left: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #186CAB;
+    color: white;
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 20px;
+    display: block;
+}
+
+    .select-button:hover {
+        background-color: white;
+        color: #186CAB;
+        border: solid;
+        border-color: #186CAB;
+    }

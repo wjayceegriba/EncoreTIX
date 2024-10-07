@@ -1,0 +1,67 @@
+﻿@inject IAttractionService attractionService
+@inject NavigationManager Navigation
+@implements IDisposable
+
+@if (attractionService != null)
+{
+    if (attractionService.IsClicked == false)
+    {
+        <span></span>
+    }
+    else if (attractionService.IsClicked == true && attractionService.Attractions.Count == 0)
+    {
+        <div class="message-box-container">
+            <MessageBox Message="No Results Found" ImageUrl="icon/icon_sad-face.png" />
+        </div>
+    }
+    else
+    {
+        <div class="container">
+            <div class="scrollable-container">
+                @foreach (var attraction in attractionService.Attractions)
+                {
+                    <div class="flex-container" @onclick="() => SetSelectedCard(attraction)">
+                        <Card Name="@attraction.Name" ImageUrl="@attraction.ImageUrl" cardClass="@GetCardClass(attraction)" />
+                    </div>
+                }
+            </div>
+            <button class="select-button button-label" @onclick="NavigateToSelectedCard">Select</button>
+        </div>
+    }
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        if (attractionService.IsClicked) attractionService.OnChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        attractionService.OnChanged -= StateHasChanged;
+    }
+
+    private string attractionId;
+    private string name;
+    private string imageUrl;
+    private AttractionListViewModel selectedAttraction;
+
+    private void SetSelectedCard(AttractionListViewModel attraction)
+    {
+        attractionId = attraction.Id;
+        name = attraction.Name;
+        imageUrl = attraction.ImageUrl;
+        selectedAttraction = attraction;
+    }
+
+    private string GetCardClass(AttractionListViewModel attraction)
+    {
+        return selectedAttraction == attraction ? "selected-card" : "flex-container";
+    }
+
+    private void NavigateToSelectedCard()
+    {
+        Navigation.NavigateTo($"/details?attractionId={Uri.EscapeDataString(attractionId)}");
+    }
+
+}

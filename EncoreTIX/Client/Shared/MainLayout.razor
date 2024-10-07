@@ -1,0 +1,25 @@
+﻿@inject NavigationManager navigationManager
+@inherits LayoutComponentBase
+
+<div class="page">
+    <main>
+        <div class="top-row px-4">
+            <Header />
+        </div>
+
+        <div class="content px-4">
+            @if (!IsDetailsPage)
+            {
+                <Search />
+            }
+        </div>
+
+        <article class="content px-2">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private bool IsDetailsPage => navigationManager.Uri.Contains("/details");
+}

@@ -1,0 +1,26 @@
+﻿@inject IAttractionService attractionService
+@inject NavigationManager navigationManager
+
+<div class="search-container">
+    <div class="search-box-container">
+        <i class="search-icon oi oi-magnifying-glass"></i>
+        <input @bind-value="keyword" type="text" class="search-box" placeholder="Search for Attractions" @ref="searchInput">
+    </div>
+    <button class="submit-button button-label" @onclick="SearchAttraction">Submit</button>
+</div>
+
+@code {
+    private string? keyword = string.Empty;
+    protected ElementReference searchInput;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) await searchInput.FocusAsync();
+    }
+
+    public void SearchAttraction()
+    {
+        attractionService.IsClicked = true;
+        navigationManager.NavigateTo($"/search/{keyword}");
+    }
+}

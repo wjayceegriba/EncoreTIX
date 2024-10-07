@@ -1,0 +1,12 @@
+﻿<div class="@cardClass">
+    <img src="@ImageUrl" class="card-img" alt="@Name" />
+    <div class="card-body">
+        <h5 class="card-title">@Name</h5>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string? Name { get; set; }
+    [Parameter] public string? ImageUrl { get; set; }
+    [Parameter] public string? cardClass { get; set; }
+}

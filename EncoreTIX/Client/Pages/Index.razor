@@ -1,0 +1,19 @@
+﻿@page "/search/{keyword}"
+
+@inject IAttractionService attractionService
+
+@if (keyword != null)
+{
+    <CardList />
+}
+
+
+@code {
+    [Parameter]
+    public string? keyword { get; set; } = null;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (keyword != null) await attractionService.List(keyword);
+    }
+}

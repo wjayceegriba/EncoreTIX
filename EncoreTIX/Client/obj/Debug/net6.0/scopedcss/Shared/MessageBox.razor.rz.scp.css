@@ -1,0 +1,22 @@
+.message-box[b-0bf4212wzk] {
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.message-box-img[b-0bf4212wzk] {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.message-box-text[b-0bf4212wzk] {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #186CAB;
+}

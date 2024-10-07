@@ -1,0 +1,104 @@
+﻿@page "/{attractionId}"
+@inject NavigationManager Navigation
+@inject IAttractionService attractionService
+@using Microsoft.AspNetCore.WebUtilities
+
+<div class="parent-container">
+    <div class="upper-container">
+        <div class="upper-left">
+            <img src="@Attraction.ImageUrl" class="title-image" />
+            <h2 class="title">@Attraction.Name</h2>
+        </div>
+        <div class="child-container">
+            <div class="right-side">
+                <p>@EventCount - Upcoming Event(s)</p>
+                @if (EventCount != 0)
+                {
+                    <div class="scrollable-container">
+                        @foreach (var e in Attraction.Events)
+                        {
+                            <div class="card">
+                                <span class="event-name">@e.Name</span>
+                                <p>Date/Time : @e.Date</p>
+                                <p>Venue : @e.Venue.Name</p>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="right-side">
+                <p>@ExternalLinkCount - External Link(s)</p>
+                @if (ExternalLinkCount != 0)
+                {
+                    <div class="scrollable-container">
+                        @foreach (var e in Attraction.ExternalLinks)
+                        {
+                            foreach (var i in e.Value)
+                            {
+                                string iconUrl = "";
+                                if (e.Key.ToLower().Contains("youtube") || e.Key.Contains("spotify") || e.Key.ToLower().Contains("twitter"))
+                                {
+                                    iconUrl = (e.Key.ToLower() == "twitter") ? "icon/icon_x.png" : $"icon/icon_{e.Key.ToLower()}.png";
+                                }
+                                else
+                                {
+                                    iconUrl = "icon/icon_website.png";
+                                }
+
+                                if (e.Key.ToLower() == "musicbrainz")
+                                {
+                                    <div class="card">
+                                        <p><img src="@iconUrl" /> @e.Key - @i.Id</p>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="card">
+                                        <p><img src="@iconUrl" /> <a href="@i.Url" target="_blank" rel="noopener noreferrer">@i.Url</a></p>
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="lower-container">
+        @if (Attraction.Images.Count != 0)
+        {
+            <div class="scrollable-images">
+                @for (int i = 1; i < Attraction.Images.Count; i++)
+                {
+                    <img src="@Attraction.Images[i].Url" alt="@Attraction.Images[i].Url" class="scroll-image" />
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public string AttractionId { get; set; }
+
+    private AttractionDetailsViewModel? Attraction = null;
+    private int EventCount = 0;
+    private int ExternalLinkCount = 0;
+
+    protected override void OnInitialized()
+    {
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        AttractionId = QueryHelpers.ParseQuery(uri.Query)["attractionId"];
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var result = await attractionService.Details(AttractionId);
+        Attraction = result.Data;
+
+        if (Attraction.ExternalLinks != null) ExternalLinkCount = Attraction.ExternalLinks.Count;
+
+        if (Attraction.Events != null) EventCount = Attraction.Events.Count; 
+    }
+}
