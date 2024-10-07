@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj": {}
+    "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj": {}
   },
   "projects": {
-    "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj": {
+    "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
+        "projectUniqueName": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
         "projectName": "EncoreTIX.Shared",
-        "projectPath": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
+        "projectPath": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
         "packagesPath": "C:\\Users\\Jaycee Griba\\.nuget\\packages\\",
-        "outputPath": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\obj\\",
+        "outputPath": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

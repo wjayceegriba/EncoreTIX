@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xtf2Th3OSlsolezb7xSjf9vWtcf7n8STrIPmoWINTmAV/fcUTG+6jv+nnkrplMDQluyqFY9J3bzsECyEH39H+g==",
+  "dgSpecHash": "rfBQ/HQ07TvYMKr/wt33RLArvMxxEQrWe+FgGLxBxNNquDn9mU3/Y/x8wRhdLM5vnAQhIVN1hlnYGJpioc1k/Q==",
   "success": true,
-  "projectFilePath": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Client\\EncoreTIX.Client.csproj",
+  "projectFilePath": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Client\\EncoreTIX.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.25\\microsoft.aspnetcore.authorization.6.0.25.nupkg.sha512",
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.25\\microsoft.aspnetcore.components.6.0.25.nupkg.sha512",

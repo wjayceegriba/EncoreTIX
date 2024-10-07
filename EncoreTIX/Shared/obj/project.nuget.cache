@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RiRZT/rbol6b+Mx1PUC5O//OuYL5SlsrDrHWR7agFSWKu+4RopyyKKKsqCPVXZs+37u1QxTiHDmZCz+xxTUiMw==",
+  "dgSpecHash": "FWNrNPNQWph1PZhCd4M5dQJZ0i2DhU1dPvu0o2NIzPlUr+AXwbZ2M6aPtCXbAvvSC5vCAtsLSCdSgK8kQH+xvw==",
   "success": true,
-  "projectFilePath": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
+  "projectFilePath": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Shared\\EncoreTIX.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",

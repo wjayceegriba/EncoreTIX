@@ -1,7 +1,7 @@
 {
   "entryAssembly": "EncoreTIX.Client",
   "resources": {
-    "hash": "sha256-BvZ15PlKrBFeDRCloi0KWZQAnOBb+FWyxLFQJe2SQrE=",
+    "hash": "sha256-AnZLcZf8Psd0p2PLPYcyd+KyNIraU88jY/iK6oGYhLY=",
     "runtime": {
       "dotnet.6.0.33.k8d7yuc2h1.js": "sha256-3qQapGQ76xXOm4Dpi23h4jVNXH1bTJXQIuoMVyT5rnU=",
       "dotnet.timezones.blat": "sha256-P+/t9PCEv/9QsJggxMNw2wdb6fNvy1O6Es0UqrFfIPQ=",
@@ -202,12 +202,12 @@
       "mscorlib.dll": "sha256-B9j0sYk80myYI4rWEvcGR3X307RSTBIwNZyYmqssN/g=",
       "netstandard.dll": "sha256-OA2B0VuineNCslrp0x3+8GHIKIgroIXq3QAppg304/0=",
       "System.Private.CoreLib.dll": "sha256-5B68cmtop3I9GS2JqJJBZQG3XP0L8yLNq+EREukp2Zk=",
-      "EncoreTIX.Shared.dll": "sha256-VoQcyMbcaEoO648VUcDNO1ocjGlLUfrODoE+PoDEpsg=",
-      "EncoreTIX.Client.dll": "sha256-bjhQzgqe2TSJEiA0AeZnmgOv3S4GwYTXNfhCBFIG1ZM="
+      "EncoreTIX.Shared.dll": "sha256-Iv0Bzjk7Zja9IEGAoHrvEkkWn16+YmlIJr8Pe/BLZww=",
+      "EncoreTIX.Client.dll": "sha256-AoSjvaVR0j9P0fG6oh/tbUEtRbAZc/JAnVon0G/7rM4="
     },
     "pdb": {
-      "EncoreTIX.Shared.pdb": "sha256-BaBz4xjOBF8w8FuzzVDal0z0lDwygQOLT9baJozypUM=",
-      "EncoreTIX.Client.pdb": "sha256-SQU1FFbqiYkNlJextXNufoEPw5kHpHzGZP7xVpNxZA4="
+      "EncoreTIX.Shared.pdb": "sha256-TVU+MNyuN9EN/KrzpnUpWhgwduEDGDGGe6GOGO86j5s=",
+      "EncoreTIX.Client.pdb": "sha256-KU+25SwkehiL/Q2nG1P88CRH5i+5TB2DiVSo7wQdiqM="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

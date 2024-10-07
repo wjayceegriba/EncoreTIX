@@ -13,67 +13,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = EncoreTIX.Client
 build_property.RootNamespace = EncoreTIX.Client
-build_property.ProjectDir = D:\TechExam\EncoreTIX\EncoreTIX\Client\
+build_property.ProjectDir = D:\Projects\Tests\EncoreTIX\EncoreTIX\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\TechExam\EncoreTIX\EncoreTIX\Client
+build_property.MSBuildProjectDirectory = D:\Projects\Tests\EncoreTIX\EncoreTIX\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/App.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Pages/Index.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/_Imports.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Pages/AttractionDetails.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Pages/AttractionDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0cmFjdGlvbkRldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-476fx82kgi
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/Card.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/Card.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rsoe6ajnkq
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/CardList.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/CardList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmRMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-e02io2r07i
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/Header.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-2fnwlpqr1e
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/MainLayout.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-10m52v7n3p
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/MessageBox.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/MessageBox.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1lc3NhZ2VCb3gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0bf4212wzk
 
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-gdel50vx9b
-
-[D:/TechExam/EncoreTIX/EncoreTIX/Client/Shared/Search.razor]
+[D:/Projects/Tests/EncoreTIX/EncoreTIX/Client/Shared/Search.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-tjbb01jhh6

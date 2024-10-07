@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = EncoreTIX.Shared
-build_property.ProjectDir = D:\TechExam\EncoreTIX\EncoreTIX\Shared\
+build_property.ProjectDir = D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

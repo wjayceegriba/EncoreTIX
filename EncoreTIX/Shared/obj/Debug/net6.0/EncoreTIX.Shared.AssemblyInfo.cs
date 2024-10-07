@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncoreTIX.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4e30420de1086718c834f54689f30bf027f3edd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3db1baf37f38d4e541fdc668ccf05b609ab6fd6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncoreTIX.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncoreTIX.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

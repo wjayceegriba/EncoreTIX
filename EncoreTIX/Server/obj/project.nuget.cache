@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nMzdMs2rg9OjRXQamOHcfxJbD887hax32sX9oAziGO12/UbzDN40lsri097MO6wrbfbM6p/ILMwMRRUmZuZzwQ==",
+  "dgSpecHash": "9GZQECaSze9yXS3mHN+dyrdb15gJtp/KNsFCh71SnGfPO2RPtdNNPEtAQG3bABH8V438rZ/tWQJPTlWBOfAATg==",
   "success": true,
-  "projectFilePath": "D:\\TechExam\\EncoreTIX\\EncoreTIX\\Server\\EncoreTIX.Server.csproj",
+  "projectFilePath": "D:\\Projects\\Tests\\EncoreTIX\\EncoreTIX\\Server\\EncoreTIX.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Jaycee Griba\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.25\\microsoft.aspnetcore.authorization.6.0.25.nupkg.sha512",

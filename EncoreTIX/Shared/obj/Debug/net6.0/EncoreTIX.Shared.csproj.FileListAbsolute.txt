@@ -21,3 +21,15 @@ D:\TechExam\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.dll
 D:\TechExam\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\refint\EncoreTIX.Shared.dll
 D:\TechExam\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.pdb
 D:\TechExam\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\ref\EncoreTIX.Shared.dll
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\bin\Debug\net6.0\EncoreTIX.Shared.deps.json
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\bin\Debug\net6.0\EncoreTIX.Shared.dll
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\bin\Debug\net6.0\EncoreTIX.Shared.pdb
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.AssemblyInfoInputs.cache
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.AssemblyInfo.cs
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.sourcelink.json
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.dll
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\refint\EncoreTIX.Shared.dll
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\EncoreTIX.Shared.pdb
+D:\Projects\Tests\EncoreTIX\EncoreTIX\Shared\obj\Debug\net6.0\ref\EncoreTIX.Shared.dll
